@@ -1,0 +1,1 @@
+{\n  "name": "sahithyolsav",\n  "private": true,\n  "workspaces": [\n    "frontend/*",\n    "backend/*"\n  ],\n  "scripts": {\n    "start": "concurrently \"npm start --prefix frontend\" \"npm start --prefix backend\"",\n    "build": "npm run build --prefix frontend"\n  },\n  "devDependencies": {\n    "concurrently": "^6.0.0"\n  }\n}
